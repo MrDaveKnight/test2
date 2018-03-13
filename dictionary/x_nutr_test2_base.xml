@@ -2,7 +2,11 @@
 <database>
     <element label="Base" max_length="40" name="x_nutr_test2_base" type="collection">
         <element choice="1" label="Colors" max_length="40" name="colors" type="choice">
-            <choice/>
+            <choice>
+                <element label="Green" sequence="0" value="green"/>
+                <element label="Yellow" sequence="1" value="yellow"/>
+                <element label="Red" sequence="2" value="red"/>
+            </choice>
         </element>
         <element label="Name" max_length="40" name="name" type="string"/>
     </element>
