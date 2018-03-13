@@ -8,6 +8,7 @@
                 <element label="Red" sequence="2" value="red"/>
             </choice>
         </element>
+        <element label="Go" max_length="40" name="go" type="boolean"/>
         <element label="Name" max_length="40" name="name" type="string"/>
     </element>
 </database>
