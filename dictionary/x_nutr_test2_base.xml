@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Base" max_length="40" name="x_nutr_test2_base" type="collection">
+        <element choice="1" label="Colors" max_length="40" name="colors" type="choice">
+            <choice/>
+        </element>
         <element label="Name" max_length="40" name="name" type="string"/>
     </element>
 </database>
